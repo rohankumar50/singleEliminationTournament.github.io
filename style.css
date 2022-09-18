@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #2d3038;
+}
+.nav {
+  text-align: center;
+  background: #373a42;
+  padding: 1.5rem 0;
+}
+
+.main {
+  margin: 1rem 1rem;
+}
+
+.input_team {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  background-color: #2d3038;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+  padding: 5px;
+  height: 32px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.input button {
+  background-color: #2d3038;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.number_match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number_match input {
+  margin-top: 10px;
+  width: 500px;
+}
+
+.number_rounds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number_rounds input {
+  margin-top: 10px;
+  width: 500px;
+}

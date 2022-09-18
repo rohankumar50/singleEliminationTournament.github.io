@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+            rel="stylesheet">
+        <title>Tournament</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="nav">
+                <h1>SINGLE ELIMANATION TOURNAMENT</h1>
+            </div>
+            <div class="main">
+                <div class="input_team">
+                    <div class="input_text">
+                        <p>Enter Number Of Participants</p>
+                    </div>
+                    <div class="input">
+                        <input type="number" id="number_of_participant">
+                        <button onclick="showResult()">Calculate</button>
+                    </div>
+
+                </div>
+
+                <div class="result">
+                    <div class="number_match">
+                        <h1>Number Of Matches</h1>
+                        <input id="number_of_matches" type="text"
+                            disabled="true">
+                    </div>
+
+                    <div class="number_rounds">
+                        <h2>Number Of Rounds</h2>
+                        <input id="number_of_rounds" type="text"
+                            disabled="true">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="algo.js"></script>
+        </div>
+    </body>
+</html>
